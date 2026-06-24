@@ -88,7 +88,7 @@ public class BukuKontak {
                 String[] data = baris.split(";");
                 if (data.length == 3) {
                     Kontak k = new Kontak(data[0], data[1], data[2]);
-                    daftarKontak.add(k); // penting: tambahkan ke daftar
+                    daftarKontak.add(k); 
                 }
             }
             System.out.println("Data kontak berhasil dimuat dari " + namaFile);
